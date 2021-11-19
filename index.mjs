@@ -1,6 +1,7 @@
 export default class WordCounter {
     #total = 0
     #counts = {}
+    #proportions = {}
     constructor() {
 
     }
@@ -8,6 +9,7 @@ export default class WordCounter {
         return this.#total
     }
     add(input, count = 1) {
+        this.#proportions = {}
         if (input instanceof WordCounter) {
             Object.entries(input.counts).forEach(([word, count]) => {
                 if (this.#counts[word]) this.#counts[word] += count
@@ -36,9 +38,19 @@ export default class WordCounter {
         return this.#total
     }
     get proportions() {
-        return Object.fromEntries(Object.entries(this.#counts).map(([key, value]) => [key, value / this.#total]))
+        // cache proportions, is reset everytime .add is called
+        if (Object.keys(this.#proportions).length) {
+            return this.#proportions
+        } else {
+            return Object.fromEntries(Object.entries(this.#counts).map(([key, value]) => [key, value / this.#total]))
+        }
     }
     toString() {
         return Object.entries(this.#counts).map(([key, value]) => `${key}: ${value}`).join("\n")
+    }
+    reset() {
+        this.#total = 0
+        this.#counts = {}
+        this.#proportions = {}
     }
 }
