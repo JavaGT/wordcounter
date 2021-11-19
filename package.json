@@ -1,7 +1,7 @@
 {
-  "name": "wordcounter",
+  "name": "@javagt/wordcounter",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple class for counting words and calcuating frequencies. Initialise a new counter as such ```js import WordCounter from '@JavaGT/wordcounter' const counter = new WordCounter() ```",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,17 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^9.1.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavaGT/wordcounter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JavaGT/wordcounter/issues"
+  },
+  "homepage": "https://github.com/JavaGT/wordcounter#readme"
 }
