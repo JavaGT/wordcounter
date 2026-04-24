@@ -1,0 +1,135 @@
+{
+    "animals": [
+      "dog",
+      "cat",
+      "elephant",
+      "giraffe",
+      "lion",
+      "tiger",
+      "monkey",
+      "dolphin",
+      "whale",
+      "kangaroo"
+    ],
+    "verbs": [
+      "run",
+      "jump",
+      "swim",
+      "sing",
+      "dance",
+      "cook",
+      "read",
+      "write",
+      "fly",
+      "think"
+    ],
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "yellow",
+      "orange",
+      "purple",
+      "pink",
+      "brown",
+      "black",
+      "white"
+    ],
+    "shapes": [
+      "circle",
+      "square",
+      "triangle",
+      "rectangle",
+      "pentagon",
+      "hexagon",
+      "octagon",
+      "oval",
+      "diamond",
+      "star"
+    ],
+    "adjectives": [
+      "beautiful",
+      "intelligent",
+      "creative",
+      "happy",
+      "brave",
+      "generous",
+      "funny",
+      "kind",
+      "talented",
+      "confident"
+    ],
+    "computer_science": [
+      "programming",
+      "algorithm",
+      "data structure",
+      "machine learning",
+      "artificial intelligence",
+      "database",
+      "network",
+      "operating system",
+      "cybersecurity",
+      "web development"
+    ],
+    "education": [
+      "teacher",
+      "student",
+      "curriculum",
+      "classroom",
+      "learning",
+      "knowledge",
+      "assessment",
+      "pedagogy",
+      "literacy",
+      "numeracy"
+    ],
+    "art": [
+      "painting",
+      "sculpture",
+      "drawing",
+      "photography",
+      "music",
+      "dance",
+      "theater",
+      "film",
+      "literature",
+      "architecture"
+    ],
+    "insects": [
+      "ant",
+      "bee",
+      "butterfly",
+      "grasshopper",
+      "ladybug",
+      "moth",
+      "mosquito",
+      "spider",
+      "cockroach",
+      "caterpillar"
+    ],
+    "history": [
+      "ancient",
+      "medieval",
+      "renaissance",
+      "industrial revolution",
+      "world war i",
+      "world war ii",
+      "cold war",
+      "colonialism",
+      "civil rights movement",
+      "space race"
+    ],
+    "cooking": [
+      "baking",
+      "grilling",
+      "roasting",
+      "sauteing",
+      "boiling",
+      "frying",
+      "seasoning",
+      "stir-frying",
+      "steaming",
+      "braising"
+    ]
+  }
+  
