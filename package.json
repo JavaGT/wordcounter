@@ -1,6 +1,6 @@
 {
   "name": "@javagt/wordcounter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a simple class for counting words and calcuating frequencies. Initialise a new counter as such ```js import WordCounter from '@JavaGT/wordcounter' const counter = new WordCounter() ```",
   "main": "index.mjs",
   "scripts": {
