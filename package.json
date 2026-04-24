@@ -18,7 +18,7 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JavaGT/wordcounter.git"
+    "url": "https://github.com/JavaGT/wordcounter.git"
   },
   "bugs": {
     "url": "https://github.com/JavaGT/wordcounter/issues"
