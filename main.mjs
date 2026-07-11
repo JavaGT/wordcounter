@@ -1,3 +1,7 @@
+/**
+ * @param {string} word
+ * @returns {Promise<Float32Array>}
+ */
 import fsp from 'fs/promises'
 export default function getEmbedding(word) {
     word = word.toLowerCase().trim()
